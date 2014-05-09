@@ -1,5 +1,12 @@
 <IfModule mod_rewrite.c>
+<<<<<<< HEAD
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 </IfModule>
+=======
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
+>>>>>>> ac33752c2595e871f6b4f8092b3e666e09d516ab
